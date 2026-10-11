@@ -1,0 +1,1527 @@
+{
+  "updatedAt": "2026-08-23T02:22:24+00:00",
+  "indices": {
+    "pun": 0.157,
+    "punMonth": "luglio 2026",
+    "psv": 0.6066,
+    "psvMonth": "luglio 2026",
+    "source": "Media mensile GME (via osservatori Tariffo.it / Energiachiara)"
+  },
+  "offers": [
+    {
+      "provider": "Enel Energia",
+      "name": "Enel Fix Web Luce",
+      "priceType": "fisso",
+      "price": 0.149,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Prezzo scontato a 0,139 €/kWh per chi ha o attiva anche gas Enel; sottoscrivibile fino al 15/09/2026.",
+      "greenEnergy": false,
+      "notes": "Prezzo bloccato 36 mesi; monoraria; bolletta web e addebito diretto obbligatori. Verificato sul sito ufficiale (agosto 2026).",
+      "url": "https://www.enel.it/it-it/offerte-luce/enel-fix-web-luce",
+      "category": "luce",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Eni Plenitude",
+      "name": "Fixa Time Luce",
+      "priceType": "fisso",
+      "price": 0.1375,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Quota commercializzazione 144 €/anno",
+        "Oneri di rete e di sistema ARERA esclusi"
+      ],
+      "promo": "Sconto 20% sui corrispettivi fissi per i primi 12 mesi; sconto 5% con addebito diretto SEPA; polizza Zurich Meteo Protetto gratuita 2 anni (fino al 15/09/2026).",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; bioraria F1 0,1395 / F23 0,1363 €/kWh; esiste variante Fixa Time 24 Smart (blocco 24 mesi, da ~0,110 €/kWh). Verificato sul sito ufficiale.",
+      "url": "https://eniplenitude.com/offerta/casa/gas-e-luce/fixa-time",
+      "category": "luce",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Eni Plenitude",
+      "name": "Trend Casa Luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,022 €/kWh",
+      "spreadValue": 0.022,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Commercializzazione e vendita 144 €/anno",
+        "Corrispettivo dispacciamento ARERA"
+      ],
+      "promo": "Sconto 24 € in 2 anni con domiciliazione SEPA; 12 mesi di canone Telepass Family gratis + 50 € sconto pedaggi per nuovi clienti.",
+      "greenEnergy": true,
+      "notes": "Indicizzata alla media mensile del PUN; sottoscrivibile fino al 15/09/2026. Verificata sul sito ufficiale.",
+      "url": "https://eniplenitude.com/offerta/casa/gas-e-luce/trend",
+      "category": "luce",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Edison",
+      "name": "Edison Web Luce",
+      "priceType": "fisso",
+      "price": 0.122,
+      "monthlyFee": 7.5,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Programma Spendi&Riprendi (bonus E-Wallet per scontare le bollette); servizio Risolve con prima uscita e prima ora gratuite; condizioni valide fino al 26/08/2026.",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; solo online; monoraria o bioraria. Verificato sul sito ufficiale il 22/08/2026, scadenza imminente delle condizioni economiche correnti.",
+      "url": "https://offerte.edisonenergia.it/edison-web-luce",
+      "category": "luce",
+      "promoExpiry": "2026-08-26"
+    },
+    {
+      "provider": "A2A Energia",
+      "name": "A2A Click Luce",
+      "priceType": "fisso",
+      "price": 0.13,
+      "monthlyFee": 9.5,
+      "extraCosts": [
+        "Oneri di rete e sistema ARERA esclusi"
+      ],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; monoraria 0,13 €/kWh, multioraria F1 0,1332 / F23 0,1285; prezzi validi fino al 31/08/2026. Energia 100% green.",
+      "url": "https://www.a2a.it/casa/a2a-click",
+      "category": "luce",
+      "promoExpiry": "2026-08-31"
+    },
+    {
+      "provider": "Iren",
+      "name": "Iren Web Self Luce Prezzo Fisso",
+      "priceType": "fisso",
+      "price": 0.11,
+      "monthlyFee": 10.25,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": null,
+      "greenEnergy": false,
+      "notes": "Ha sostituito Iren Quick Web Luce; prezzo bloccato fino al 30/09/2028; solo online. Verificato sul sito ufficiale il 22/08/2026; energia verde non dichiarata su questa offerta.",
+      "url": "https://www.irenlucegas.it/casa/offerte-luce/iren-web-self-prezzo-fisso-luce",
+      "category": "luce"
+    },
+    {
+      "provider": "Acea",
+      "name": "Acea Fix Luce",
+      "priceType": "fisso",
+      "price": 0.103,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; monoraria 0,103 oppure trioraria F1 0,105 / F2 0,115 / F3 0,091 €/kWh (comparatori agosto 2026); energia con Garanzia d'Origine.",
+      "url": "https://www.aceaenergia.it/offerte-casa/acea-energia-fix",
+      "category": "luce"
+    },
+    {
+      "provider": "Sorgenia",
+      "name": "Next Energy Sunlight Luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,006 €/kWh",
+      "spreadValue": 0.006,
+      "monthlyFee": 6.7,
+      "extraCosts": [
+        "Quota fissa 80,40 €/anno (alcune fonti riportano 4,8 €/mese: confermare in scheda offerta)"
+      ],
+      "promo": "Bonus di benvenuto 80 €; sconti fedeltà progressivi sulla quota fissa fino al 20% dopo il 3° anno.",
+      "greenEnergy": true,
+      "notes": "Spread fisso 12 mesi; solo online; domiciliazione obbligatoria; energia 100% rinnovabile GO. Esiste anche variante PUNtuale (spread 0,007). Ad agosto 2026 la scheda dedicata non è più raggiungibile sul sito ufficiale (offerte esposte solo su preventivo): verificare che il nome/spread siano ancora questi prima della sottoscrizione.",
+      "url": "https://www.sorgenia.it/offerte-luce-casa/next-energy-sunlight-luce",
+      "category": "luce"
+    },
+    {
+      "provider": "Octopus Energy",
+      "name": "Octopus Fissa 12M",
+      "priceType": "fisso",
+      "price": null,
+      "monthlyFee": 6,
+      "extraCosts": [
+        "Quota commercializzazione 72 €/anno",
+        "Oneri ARERA esclusi"
+      ],
+      "promo": "Nessuna penale di uscita.",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; monoraria; energia 100% rinnovabile senza sovrapprezzo. Prezzo non verificabile ad agosto 2026: sito ufficiale non raggiungibile fuori preventivo e comparatori discordanti (0,13-0,15 €/kWh).",
+      "url": "https://octopusenergy.it/le-nostre-tariffe",
+      "category": "luce"
+    },
+    {
+      "provider": "Octopus Energy",
+      "name": "Octopus Flex",
+      "priceType": "variabile",
+      "price": "PUN + 0,0088 €/kWh",
+      "spreadValue": 0.0088,
+      "monthlyFee": 6,
+      "extraCosts": [
+        "Quota commercializzazione 72 €/anno"
+      ],
+      "promo": "Nessuna penale di uscita.",
+      "greenEnergy": true,
+      "notes": "Indicizzata PUN con aggiornamento mensile; energia 100% rinnovabile. Dati agosto 2026 da comparatori.",
+      "url": "https://octopusenergy.it/le-nostre-tariffe",
+      "category": "luce"
+    },
+    {
+      "provider": "NeN",
+      "name": "Luce Dieci",
+      "priceType": "fisso",
+      "price": 0.114,
+      "monthlyFee": 6,
+      "extraCosts": [
+        "Quota fissa 72 €/anno",
+        "Recesso anticipato: 2 € per ogni mese mancante ai 10 anni"
+      ],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato fino a 10 anni; 'energia in abbonamento' con rata mensile fissa ricalcolata ogni 12 mesi. Esistono anche Luce Due (0,134 €/kWh, 8 €/mese, 2 anni) e Luce Surf (variabile PUN).",
+      "url": "https://nen.it/offerte-e-prezzi",
+      "category": "luce"
+    },
+    {
+      "provider": "Illumia",
+      "name": "SicurInsieme Luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,01 €/kWh",
+      "spreadValue": 0.01,
+      "monthlyFee": 10,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Tetto massimo di prezzo sulla materia prima per i primi 12 mesi; bonus fedeltà 70 € al 12° mese (sull'offerta fissa).",
+      "greenEnergy": false,
+      "notes": "Indicizzata PUN Index GME con cap anti-rialzo 12 mesi. Illumia propone anche una fissa a 0,114 €/kWh (quota 12 €/mese).",
+      "url": "https://www.illumia.it/",
+      "category": "luce",
+      "promoExpiry": "2026-09-10"
+    },
+    {
+      "provider": "Engie",
+      "name": "Energia PuntoFisso 12 Mesi Luce",
+      "priceType": "fisso",
+      "price": 0.135,
+      "monthlyFee": 6,
+      "extraCosts": [
+        "Quota commercializzazione 72 €/anno",
+        "Oneri ARERA esclusi"
+      ],
+      "promo": "Promozione in scadenza tra il 19 e il 26 agosto 2026.",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; solo online con domiciliazione; multioraria F1 0,1413 / F2 0,1495 / F3 0,1287. Disponibile anche versione 24 mesi. Energia 100% rinnovabile.",
+      "url": "https://www.engie.it/casa/offerte-luce-gas/energia-puntofisso-12mesi/",
+      "category": "luce",
+      "promoExpiry": "2026-08-26"
+    },
+    {
+      "provider": "E.ON",
+      "name": "E.ON LuceClick Verde",
+      "priceType": "fisso",
+      "price": 0.109,
+      "monthlyFee": 9,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Programma referral 'E.ON Amico' senza scadenza dichiarata.",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi; online; bioraria F1 0,111 / F23 0,108 €/kWh. Energia rinnovabile certificata. Lo sconto dual gas (Luce e Gas Insieme) appartiene a un'offerta separata, non a questa.",
+      "url": "https://www.eon-energia.com/luce/casa/eon-luce-click-verde.html",
+      "category": "luce"
+    },
+    {
+      "provider": "Pulsee",
+      "name": "Relax Luce",
+      "priceType": "fisso",
+      "price": 0.1494,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Quota vendita 144 €/anno (ridotta a 114 €/anno per 4 anni in promozione)"
+      ],
+      "promo": "Con codice SUPER sconto complessivo fino a 245 € attivando luce+gas (dilazionato 5 €/mese per 24 mesi); sottoscrivibile fino al 02/09/2026.",
+      "greenEnergy": true,
+      "notes": "Rinominata da 'Luce Relax 36 Mesi'; gestione 100% digitale via app; durata blocco prezzo non confermata (sito non completamente accessibile fuori dal funnel, indicativamente 12 mesi). Energia 100% rinnovabile.",
+      "url": "https://pulsee.it/offerte-casa-luce-gas/luce/relax-luce",
+      "category": "luce",
+      "promoExpiry": "2026-09-02"
+    },
+    {
+      "provider": "Tate",
+      "name": "Tate Luce",
+      "priceType": "variabile",
+      "price": null,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Ad agosto 2026 i comparatori non riportano tariffe Tate attive sottoscrivibili; prezzi correnti solo su preventivo dal sito. Storicamente fisse 12 mesi e variabili PUN, energia rinnovabile, gestione via app.",
+      "url": "https://tate.it/",
+      "category": "luce"
+    },
+    {
+      "provider": "Alperia",
+      "name": "Smile Easy Summer Luce",
+      "priceType": "fisso",
+      "price": 0.1027,
+      "monthlyFee": 7.95,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Campagna estiva (prezzo promozionale 'Summer').",
+      "greenEnergy": true,
+      "notes": "Energia 100% green principalmente idroelettrica dell'Alto Adige; prezzo bloccato 36 mesi (confermato sul sito ufficiale il 22/08/2026).",
+      "url": "https://www.alperia.eu/offerta/alperia-smile-easy-summer/",
+      "category": "luce"
+    },
+    {
+      "provider": "Dolomiti Energia",
+      "name": "Dolomiti Fisso Luce 120",
+      "priceType": "fisso",
+      "price": 0.102,
+      "monthlyFee": 9,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Riservata ai primi 2.500 nuovi clienti della finestra di sottoscrizione.",
+      "greenEnergy": true,
+      "notes": "Corrispettivo consumi bloccato 120 mesi (10 anni). Esistono anche Fisso Luce 36 e Flex 24 (variabile). Verificato sul sito ufficiale il 22/08/2026.",
+      "url": "https://www.dolomitienergia.it/offerte-casa/luce/dolomiti-fisso-luce-120.html",
+      "category": "luce",
+      "promoExpiry": "2026-09-02"
+    },
+    {
+      "provider": "Hera Comm",
+      "name": "PiùControllo Special Flat Luce",
+      "priceType": "fisso",
+      "price": 0.138,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Oneri di sistema e trasporto ARERA esclusi"
+      ],
+      "promo": "Sconto esclusivo 50 € sottoscrivendo online; sulla variante variabile Special Active bonus digital 60 € + 100 € extra nuovi clienti web.",
+      "greenEnergy": false,
+      "notes": "Prezzo bloccato 24 mesi; monitoraggio consumi orari via app My Hera. Prezzo da comparatori agosto 2026; green solo con opzione dedicata.",
+      "url": "https://heracomm.gruppohera.it/casa/offerte-luce-gas/piu-controllo-special-flat",
+      "category": "luce"
+    },
+    {
+      "provider": "Enel Energia",
+      "name": "Enel Fix Web Gas",
+      "priceType": "fisso",
+      "price": 0.49,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Quota commercializzazione 144 €/PDR/anno (IVA e imposte escluse)"
+      ],
+      "promo": "Sconto -13% per sottoscrizione web + -26% per attivazione dual (luce+gas): risparmio dichiarato 39% per 3 anni. Valida fino al 15/09/2026.",
+      "notes": "Prezzo materia prima bloccato 3 anni. Solo online, bolletta web e domiciliazione obbligatorie, fatturazione mensile.",
+      "url": "https://www.enel.it/it/offerte-luce-gas/enel-fix-web-luce-gas",
+      "category": "gas",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Eni Plenitude",
+      "name": "Fixa Time 24 Gas",
+      "priceType": "fisso",
+      "price": 0.465,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo bloccato 24 mesi. Prezzo da comparatori (agosto 2026), non verificato sul sito ufficiale.",
+      "url": "https://eniplenitude.com/offerte/casa",
+      "category": "gas"
+    },
+    {
+      "provider": "Eni Plenitude",
+      "name": "Trend Casa Gas",
+      "priceType": "variabile",
+      "price": "PSV + spread (non pubblicato)",
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": "Sconto in bolletta di 12 € attivando l'addebito diretto (SDD), ripartito su 24 mesi.",
+      "notes": "Indicizzata PSV, aggiornamento mensile. Spread esatto non verificabile fuori dal funnel.",
+      "url": "https://eniplenitude.com/offerte/casa",
+      "category": "gas"
+    },
+    {
+      "provider": "Edison",
+      "name": "Edison Web Gas",
+      "priceType": "fisso",
+      "price": 0.629,
+      "monthlyFee": 7.5,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Offerta web a prezzo fisso 12 mesi. Prezzo da comparatori (agosto 2026); il sito espone i prezzi solo nel funnel.",
+      "url": "https://www.edisonenergia.it/edison/casa/offerte-gas",
+      "category": "gas"
+    },
+    {
+      "provider": "Edison",
+      "name": "Edison World Gas",
+      "priceType": "variabile",
+      "price": "PSV senza ricarico (spread 0 €/Smc)",
+      "monthlyFee": 20,
+      "extraCosts": [],
+      "promo": "Programma fedeltà Spendi&Riprendi con bonus in bolletta fino a 160 €; servizio Edison Risolve incluso.",
+      "notes": "Indicizzata PSV. Quota fissa 20 €/mese da comparatori (agosto 2026), non verificata sul sito.",
+      "url": "https://www.edisonenergia.it/edison/casa/offerte-gas",
+      "category": "gas",
+      "spreadValue": 0.0
+    },
+    {
+      "provider": "A2A Energia",
+      "name": "A2A Click Gas",
+      "priceType": "fisso",
+      "price": 0.47,
+      "monthlyFee": 9.5,
+      "extraCosts": [
+        "Quota fissa 114 €/anno"
+      ],
+      "promo": "Attivabile online o via WhatsApp; possibilità di codici promozionali dedicati.",
+      "notes": "Prezzo bloccato 12 mesi; prezzi validi fino al 31/08/2026. Verificato sulla pagina ufficiale il 22/08/2026.",
+      "url": "https://www.a2a.it/casa/a2a-click",
+      "category": "gas",
+      "promoExpiry": "2026-08-31"
+    },
+    {
+      "provider": "Iren",
+      "name": "Iren Web Self Gas Prezzo Fisso",
+      "priceType": "fisso",
+      "price": 0.53,
+      "monthlyFee": 10,
+      "extraCosts": [
+        "Riservata a consumi annui inferiori a 1.500 Smc"
+      ],
+      "promo": null,
+      "notes": "Ha sostituito Iren 10x3 Gas Variabile; prezzo bloccato fino al 30/09/2028; solo online. Verificato sul sito ufficiale il 22/08/2026.",
+      "url": "https://www.irenlucegas.it/casa/offerte-gas/iren-web-self-gas-prezzo-fisso",
+      "category": "gas"
+    },
+    {
+      "provider": "Acea",
+      "name": "Acea Fix Gas",
+      "priceType": "fisso",
+      "price": 0.45,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo bloccato 12 mesi. Solo online, domiciliazione obbligatoria. Prezzo da comparatori agosto 2026.",
+      "url": "https://www.acea.it/luce-e-gas",
+      "category": "gas"
+    },
+    {
+      "provider": "Sorgenia",
+      "name": "Next Energy Smart Gas",
+      "priceType": "fisso",
+      "price": 0.8,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Nessun costo di attivazione né deposito cauzionale; sconto 10% sulle ricariche auto elettrica con app MyNextMove.",
+      "notes": "Blocco materia prima 12 mesi. Prezzo da comparatori, sopra la media: verificare nel funnel ufficiale.",
+      "url": "https://www.sorgenia.it/offerte-gas",
+      "category": "gas"
+    },
+    {
+      "provider": "Sorgenia",
+      "name": "Next Energy Sunlight Gas",
+      "priceType": "variabile",
+      "price": "PSV + spread (0,05–0,28 €/Smc secondo le fonti)",
+      "monthlyFee": null,
+      "extraCosts": [
+        "Contributo fisso mensile presente, importo non esposto fuori dal funnel"
+      ],
+      "promo": "Sconto fedeltà crescente sul corrispettivo di commercializzazione.",
+      "notes": "Indicizzata PSV, aggiornamento mensile. Spread esatto non verificabile.",
+      "url": "https://www.sorgenia.it/offerte-gas",
+      "category": "gas"
+    },
+    {
+      "provider": "Octopus Energy",
+      "name": "Octopus Fissa 12M Gas",
+      "priceType": "fisso",
+      "price": 0.68,
+      "monthlyFee": 7,
+      "extraCosts": [],
+      "promo": "Promozione a prezzo fisso segnalata in scadenza il 25 agosto 2026.",
+      "notes": "Blocco materia prima 12 mesi, gestione 100% digitale. Prezzo da comparatori agosto 2026, sito non mostra il prezzo fuori dal funnel.",
+      "url": "https://octopusenergy.it/le-nostre-tariffe",
+      "category": "gas",
+      "promoExpiry": "2026-08-25"
+    },
+    {
+      "provider": "Octopus Energy",
+      "name": "Octopus Flex Gas",
+      "priceType": "variabile",
+      "price": "PSV + spread (aggiornamento mensile)",
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo agganciato al mercato all'ingrosso, aggiornato ogni mese; gestione digitale via app.",
+      "url": "https://octopusenergy.it/le-nostre-tariffe",
+      "category": "gas"
+    },
+    {
+      "provider": "NeN",
+      "name": "Special 48 Gas",
+      "priceType": "fisso",
+      "price": null,
+      "monthlyFee": 9,
+      "extraCosts": [],
+      "promo": "Programma 'Abbassa la bolletta': sconti per ogni amico portato in NeN (referral).",
+      "notes": "Abbonamento: rata mensile costante sui consumi stimati, conguaglio annuale; prezzo bloccato 2 anni. Possibile rinominata 'NeN Offerta Due'; prezzo non verificabile ad agosto 2026 per fonti fortemente discordanti (0,44-1,37 €/Smc): verificare sul funnel ufficiale.",
+      "url": "https://www.nen.it/offerte-e-prezzi",
+      "category": "gas"
+    },
+    {
+      "provider": "Illumia",
+      "name": "Gas Flex",
+      "priceType": "variabile",
+      "price": "PSV + 0,05 €/Smc",
+      "spreadValue": 0.05,
+      "monthlyFee": 7,
+      "extraCosts": [
+        "Corrispettivo fisso commercializzazione 84 €/PDR/anno"
+      ],
+      "promo": null,
+      "notes": "Aggiornamento mensile. Solo SDD; riservata a switch; sottoscrivibile fino al 10/09/2026. Verificato sulla pagina ufficiale il 22/08/2026.",
+      "url": "https://www.illumia.it/casa/gas/gas-flex/",
+      "category": "gas",
+      "promoExpiry": "2026-09-10"
+    },
+    {
+      "provider": "Engie",
+      "name": "Energia Punto Fisso Gas",
+      "priceType": "fisso",
+      "price": 0.5545,
+      "monthlyFee": 7,
+      "extraCosts": [],
+      "promo": "Promozione in scadenza tra il 19 e il 26 agosto 2026.",
+      "notes": "Prezzo bloccato 12 mesi. Dati da comparatori agosto 2026.",
+      "url": "https://www.engie.it/offerte/gas",
+      "category": "gas",
+      "promoExpiry": "2026-08-26"
+    },
+    {
+      "provider": "Engie",
+      "name": "Energia Vedo Chiaro Gas",
+      "priceType": "variabile",
+      "price": "PSV + 0,03 €/Smc",
+      "spreadValue": 0.03,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Indicizzata PSV, aggiornamento mensile. Quota fissa non nota.",
+      "url": "https://www.engie.it/offerte/gas",
+      "category": "gas"
+    },
+    {
+      "provider": "E.ON",
+      "name": "E.ON GasClick",
+      "priceType": "fisso",
+      "price": 0.469,
+      "monthlyFee": 9,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Ha sostituito E.ON Insieme Gas nell'offerta pubblica; prezzo bloccato 12 mesi; bolletta digitale e addebito diretto. Verificato sul sito ufficiale il 22/08/2026.",
+      "url": "https://www.eon-energia.com/gas/casa/eon-gas-click.html",
+      "category": "gas"
+    },
+    {
+      "provider": "Pulsee",
+      "name": "Relax Fix Gas",
+      "priceType": "fisso",
+      "price": 0.627,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo bloccato 12 mesi. Prezzo da comparatori agosto 2026.",
+      "url": "https://pulsee.it/offerte-casa-luce-gas",
+      "category": "gas"
+    },
+    {
+      "provider": "Pulsee",
+      "name": "Gas Per Te",
+      "priceType": "variabile",
+      "price": "PSV + 0,042 €/Smc",
+      "spreadValue": 0.042,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Indicizzata PSV, aggiornamento mensile, gestione 100% digitale via app.",
+      "url": "https://pulsee.it/offerte-casa-luce-gas/luce-e-gas/luce-e-gas-per-te",
+      "category": "gas"
+    },
+    {
+      "provider": "Tate",
+      "name": "Tate Gas",
+      "priceType": "variabile",
+      "price": "PSV Day-Ahead + spread (non pubblicato fuori dal funnel)",
+      "monthlyFee": 10.5,
+      "extraCosts": [
+        "Quota Tate 126 €/anno, addebitata in rate mensili"
+      ],
+      "promo": "Frequenti promo referral e codici sconto per nuovi clienti sul canale digitale.",
+      "notes": "Offerta 100% digitale (attivazione via app/sito).",
+      "url": "https://tate.it",
+      "category": "gas"
+    },
+    {
+      "provider": "Alperia",
+      "name": "Alperia Gas Home Promo",
+      "priceType": "variabile",
+      "price": "PSV + 0,16 €/Smc",
+      "spreadValue": 0.16,
+      "monthlyFee": 0,
+      "extraCosts": [
+        "Quota fissa 0 €/PDR il 1° anno, poi 144 €/PDR/anno dal 2° anno"
+      ],
+      "promo": "Primo anno senza quota fissa; solo online; nessun costo di switch.",
+      "notes": "Gas con CO2 compensata. Verificato sulla pagina ufficiale il 22/08/2026.",
+      "url": "https://www.alperia.eu/offerta/alperia-gas-home-promo/",
+      "category": "gas"
+    },
+    {
+      "provider": "Dolomiti Energia",
+      "name": "Dolomiti Flex 24 Gas",
+      "priceType": "variabile",
+      "price": "PSV Day-Ahead + 0,09 €/Smc",
+      "spreadValue": 0.09,
+      "monthlyFee": 10,
+      "extraCosts": [
+        "Quota fissa 120 €/anno per PDR"
+      ],
+      "promo": "Sconto 4,50 €/mese per i primi 12 mesi (max 54 € totali) sulla quota fissa.",
+      "notes": "Durata 24 mesi; CO2 compensata; sottoscrivibile fino al 26/08/2026. Verificato sulla pagina ufficiale il 22/08/2026.",
+      "url": "https://www.dolomitienergia.it/offerte-casa/gas/flex-24-gas.html",
+      "category": "gas",
+      "promoExpiry": "2026-08-26"
+    },
+    {
+      "provider": "Hera Comm",
+      "name": "Più Controllo Special Flat Gas",
+      "priceType": "fisso",
+      "price": 0.516,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Sconto 20% applicato sul Prezzo Base della materia prima.",
+      "notes": "Prezzo bloccato 12 mesi, bolletta mensile digitale. Dati da comparatori 2026.",
+      "url": "https://heracomm.gruppohera.it/casa/offerte",
+      "category": "gas"
+    },
+    {
+      "provider": "Hera Comm",
+      "name": "Più Controllo Special Active Gas",
+      "priceType": "variabile",
+      "price": "PSV Day-Ahead + 0,10 €/Smc",
+      "spreadValue": 0.1,
+      "monthlyFee": null,
+      "extraCosts": [
+        "Corrispettivo di commercializzazione fisso (importo non verificato)"
+      ],
+      "promo": "Bonus Digital da 30 € per le nuove attivazioni online.",
+      "notes": "Aggancio mensile al PSV Day-Ahead. Dati da comparatori agosto 2026.",
+      "url": "https://heracomm.gruppohera.it/casa/offerte",
+      "category": "gas"
+    },
+    {
+      "provider": "TIM",
+      "name": "TIM WiFi Casa",
+      "price": 31.9,
+      "promoPrice": 24.9,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s (FTTC 200 Mbit/s dove non c'è FTTH)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Modem TIM HUB+/HUB Pro: 0 €/mese per i primi 24 mesi, poi 5 €/mese",
+        "Recesso anticipato: 23 € nei primi 24 mesi",
+        "Attivazione 39,90 € se fuori promo",
+        "Fattura cartacea: 5,99 €/mese"
+      ],
+      "promo": "24,90 €/mese per 20 mesi + sconto domiciliazione; attivazione gratuita online fino al 29/08/2026; 'Raddoppia l'estate': linea 5G portatile WiFi GO gratis 3 mesi; sconto convergenza con mobile TIM e TIMVISION.",
+      "notes": "Contratto minimo 24 mesi; chiamate illimitate incluse. Prezzo di listino corretto a 31,90 €/mese (verificato sul sito ufficiale il 22/08/2026); promo valida fino al 29/08/2026.",
+      "url": "https://www.tim.it/fisso-e-mobile/fibra-e-adsl",
+      "category": "internet",
+      "promoExpiry": "2026-08-29",
+      "promoMonths": 20,
+      "commitment": 24
+    },
+    {
+      "provider": "TIM",
+      "name": "TIM WiFi Casa 10 Giga",
+      "price": 36.9,
+      "promoPrice": 34.9,
+      "activationCost": 0,
+      "technology": "FTTH 10 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Recesso anticipato: 23 € nei primi 24 mesi"
+      ],
+      "promo": "Attivazione gratuita in promozione; modem TIM HUB Ultra Wi-Fi incluso; chiamate illimitate.",
+      "notes": "Solo aree coperte FTTH 10 Giga; contratto minimo 24 mesi. Verificato sul sito ufficiale (agosto 2026).",
+      "url": "https://www.tim.it/fisso-e-mobile/fibra-e-adsl",
+      "category": "internet",
+      "commitment": 24
+    },
+    {
+      "provider": "Vodafone",
+      "name": "Vodafone Casa Start Fibra",
+      "price": 27.95,
+      "promoPrice": 23.95,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s (FTTC dove non coperto)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate a consumo (opzione illimitate a pagamento)"
+      ],
+      "promo": "Sconto convergenza permanente: 23,95 €/mese abbinando una SIM mobile Vodafone sulla stessa fattura; attivazione gratuita online.",
+      "notes": "Lo sconto è legato alla convergenza mobile, non a scadenza. Prezzi da comparatori agosto 2026.",
+      "url": "https://privati.vodafone.it/casa/fibra",
+      "category": "internet"
+    },
+    {
+      "provider": "Vodafone",
+      "name": "Vodafone Casa FWA Light",
+      "price": 25.95,
+      "promoPrice": 23.95,
+      "activationCost": 0,
+      "technology": "FWA 300 Mbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate a consumo"
+      ],
+      "promo": "Sconto convergenza per clienti mobile Vodafone (23,95 €/mese).",
+      "notes": "Prezzo da comparatori (fonti discordanti 24,95–25,95 €); contratto 24 mesi.",
+      "url": "https://privati.vodafone.it/casa/fibra",
+      "category": "internet"
+    },
+    {
+      "provider": "Fastweb",
+      "name": "Fastweb Casa Start",
+      "price": 27.95,
+      "promoPrice": 23.95,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate a consumo: 0,15 €/min verso fissi e mobili nazionali"
+      ],
+      "promo": "Sconto convergenza: 23,95 €/mese con mobile Fastweb; attivazione inclusa; prova 30 giorni con rimborso; bundle Casa + Energia disponibile.",
+      "notes": "Senza vincoli, prezzo bloccato; modem NeXXt One Wi-Fi 6 incluso. Verificato sul sito ufficiale. Attenzione: annunciati rincari fino a 4 €/mese da settembre 2026 su alcune offerte.",
+      "url": "https://www.fastweb.it/adsl-fibra-ottica/fastweb-casa-start/",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "Fastweb",
+      "name": "Fastweb Casa FWA Light",
+      "price": 25.95,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FWA 5G (fino a ~1 Gbit/s nelle aree coperte)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate a consumo"
+      ],
+      "promo": "Sconti convergenza con mobile Fastweb su altre offerte della gamma.",
+      "notes": "Prezzo dal sito ufficiale (agosto 2026); velocità effettiva dipende dalla copertura FWA.",
+      "url": "https://www.fastweb.it/adsl-fibra-ottica/",
+      "category": "internet"
+    },
+    {
+      "provider": "WindTre",
+      "name": "Super Fibra",
+      "price": 24.99,
+      "promoPrice": 19.99,
+      "activationCost": 47.76,
+      "technology": "FTTH 2.5 Gbit/s (FTTC/FWA dove non coperto)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Contributo attivazione 1,99 €/mese per 24 mesi (totale 47,76 €); 0 € in aree FWA"
+      ],
+      "promo": "19,99 €/mese per i primi 12 mesi (nuovi clienti), poi 24,99 €; Amazon Prime incluso 12 mesi; per clienti mobile WindTre Giga illimitati fino a 3 SIM; bundle Fibra + Luce&Gas a 19,99 €/mese per 24 mesi.",
+      "notes": "Modem Wi-Fi 7 in comodato; chiamate illimitate; recesso anticipato = rate residue attivazione. Verificato sul sito ufficiale.",
+      "url": "https://www.windtre.it/offerte-fibra/",
+      "category": "internet",
+      "promoMonths": 12
+    },
+    {
+      "provider": "Iliad",
+      "name": "iliadbox",
+      "price": 26.99,
+      "promoPrice": 22.99,
+      "activationCost": 39.99,
+      "technology": "FTTH 5 Gbit/s (EPON; 2.5 Gbit/s in aree GPON)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Installazione una tantum 39,99 €",
+        "Spostamento presa 39 €, prolunga fibra fino a 20 m 69 € (opzionali)"
+      ],
+      "promo": "Vantaggio Casa+Mobile: sconto permanente (22,99 €/mese) per clienti mobile iliad con offerta ≥ 9,99 €/mese e pagamento automatico.",
+      "notes": "Senza vincoli; iliadbox Wi-Fi 7 in comodato gratuito; chiamate illimitate verso fissi/mobili Italia e fissi internazionali. Fonti discordanti sul listino (25,99–26,99 €): verificare in fase d'ordine.",
+      "url": "https://www.iliad.it/offerte-iliad-fibra.html",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "Iliad",
+      "name": "iliadbox super",
+      "price": 34.99,
+      "promoPrice": 29.99,
+      "activationCost": 39.99,
+      "technology": "FTTH 5 Gbit/s (EPON, upload 700 Mbit/s)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Installazione 39,99 € (0 € in promozione da prospetto trasparenza)",
+        "Disattivazione/migrazione: 25,99 €"
+      ],
+      "promo": "29,99 €/mese in promo (a regime 34,99 €); include iliadbox Wi-Fi 7 + 2 extender + saponetta Wi-Fi portatile con SIM dati 350 GB/mese in 4G + antivirus McAfee.",
+      "notes": "Richiede pagamento automatico; di fatto riservata a clienti mobile iliad; extender e McAfee da richiedere dopo l'installazione.",
+      "url": "https://www.iliad.it/offerta-iliadbox-super.html",
+      "category": "internet"
+    },
+    {
+      "provider": "Sky Wifi",
+      "name": "Sky Wifi",
+      "price": 29.9,
+      "promoPrice": 22.9,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s (FTTC 200 Mbit/s dove non coperto)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Voce Unlimited: 0 €/mese per 12 mesi, poi 5 €/mese",
+        "Recesso anticipato con Sky Smart: restituzione sconti fruiti"
+      ],
+      "promo": "22,90 €/mese bloccato 12 mesi in promo (nuovi clienti, solo rete Open Fiber); sconto convergenza e fattura unica con Sky TV (bundle Sky Wifi + Calcio + TV a 27,90 €/mese per 18 mesi).",
+      "notes": "Vincolo 18 mesi con profilo Sky Smart; prezzo post-promo e attivazione da fonti comparatore. Scadenza promo imminente: verificare rinnovo a fine mese.",
+      "url": "https://www.sky.it/offerte/wifi",
+      "category": "internet",
+      "promoExpiry": "2026-08-23",
+      "promoMonths": 12,
+      "commitment": 18
+    },
+    {
+      "provider": "EOLO",
+      "name": "EOLO Casa",
+      "price": 24.9,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FWA 100 Mbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate illimitate: +3 €/mese in promo (anziché 5 €)",
+        "Extender Wi-Fi 7: 2 €/mese cad. in promo"
+      ],
+      "promo": "Router Wi-Fi 7 incluso. Gamma: Casa Plus 29,90 € (200 Mbit/s), Casa Max 34,90 € (300 Mbit/s, extender incluso), Casa Max Élite 34,90 € anziché 44,90 € (1 Gbit/s).",
+      "notes": "Vincolo tipico 24 mesi con costi di recesso anticipato; attivazione non esposta.",
+      "url": "https://www.eolo.it/offerte",
+      "category": "internet",
+      "commitment": 24
+    },
+    {
+      "provider": "EOLO",
+      "name": "EOLO Casa Fibra",
+      "price": 29.9,
+      "promoPrice": 24.9,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Extender Wi-Fi 7: 2 €/mese cad. in promo"
+      ],
+      "promo": "24,90 €/mese per i primi 12 mesi, poi 29,90 € (listino dal 01/06/2026); chiamate illimitate; router Wi-Fi 7 incluso; solo online.",
+      "notes": "Esiste anche Casa Fibra Max a 34,90 €/mese (extender incluso).",
+      "url": "https://www.eolo.it/offerte",
+      "category": "internet",
+      "promoMonths": 12
+    },
+    {
+      "provider": "Aruba Fibra",
+      "name": "Fibra Aruba All-In",
+      "price": null,
+      "promoPrice": 27.9,
+      "activationCost": 29.9,
+      "technology": "FTTH 1 Gbit/s (fino a 2.5/10 Gbit/s dove disponibile, rete Open Fiber)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Attivazione 29,90 € (alcuni comparatori la indicano gratuita)"
+      ],
+      "promo": "27,90 €/mese per 12 mesi (sito ufficiale); comparatori riportano promo online a 19,89 €/mese (-25%): verificare in fase d'ordine. Chiamate illimitate e router Wi-Fi 6 inclusi; sospensione gratuita 30 giorni/anno.",
+      "notes": "Listino post-promo non pubblicato; vincolo 12 mesi. Esiste anche 'Fibra Aruba' base a 24,90 €/mese senza modem né chiamate.",
+      "url": "https://fibra.aruba.it/",
+      "category": "internet",
+      "promoMonths": 12,
+      "commitment": 12
+    },
+    {
+      "provider": "Tiscali",
+      "name": "Tiscali Casa Fibra Power",
+      "price": 25.9,
+      "promoPrice": 19.9,
+      "activationCost": 29.9,
+      "technology": "FTTH 2.5 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Attivazione una tantum 29,90 €"
+      ],
+      "promo": "19,90 €/mese per i primi 12 mesi, poi 25,90 € (promo fino al 27/08/2026); variante Home Safe a 22,90 € con assicurazione casa AXA; combo fibra+mobile disponibili.",
+      "notes": "Modem Super Wi-Fi incluso. Verificato su casa.tiscali.it (agosto 2026).",
+      "url": "https://casa.tiscali.it/",
+      "category": "internet",
+      "promoExpiry": "2026-08-27",
+      "promoMonths": 12
+    },
+    {
+      "provider": "PosteCasa",
+      "name": "PosteCasa Ultraveloce Start",
+      "price": 24.9,
+      "promoPrice": null,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s (FTTC 200 Mbit/s dove non coperto)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Chiamate illimitate: 5 €/mese (attivabile solo in ufficio postale)",
+        "Attivazione 39 € fuori promo"
+      ],
+      "promo": "Attivazione 0 € per sottoscrizioni web fino al 30/09/2026; sconto 50 €/anno con codice promo per clienti Poste Energia (fino al 31/12/2026).",
+      "notes": "Solo nuovi clienti; modem in comodato gratuito; installazione con tecnico inclusa. Verificato su postepay.poste.it.",
+      "url": "https://postepay.poste.it/fibra/postecasa-ultraveloce-start",
+      "category": "internet",
+      "promoExpiry": "2026-09-30"
+    },
+    {
+      "provider": "Beactive",
+      "name": "FiberEvolution Full",
+      "price": null,
+      "promoPrice": 15.9,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Attivazione ~29,50 € secondo comparatori (da verificare)"
+      ],
+      "promo": "15,90 €/mese per i primi 6 mesi; modem Fritz!Box 7530 AX Wi-Fi 6 e chiamate illimitate inclusi.",
+      "notes": "Prezzo post-promo non pubblicato (~21,90–22,90 € da fonti terze). Tra le FTTH più economiche del mercato.",
+      "url": "https://www.beactive.it/offerte-fibra/offerte-fibra-casa/",
+      "category": "internet",
+      "promoMonths": 6
+    },
+    {
+      "provider": "Beactive",
+      "name": "FiberEvolution Base",
+      "price": 21.9,
+      "promoPrice": 13.9,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": false,
+      "extraCosts": [
+        "Modem non incluso (libera scelta o acquisto)",
+        "Attivazione ~29,50 € (da verificare)"
+      ],
+      "promo": "13,90 €/mese per i primi 6 mesi, poi 21,90 €/mese.",
+      "notes": "Prezzo standard da fonti comparatore; supporto con presa in carico entro 24 h.",
+      "url": "https://www.beactive.it/offerte-fibra/offerte-fibra-casa/",
+      "category": "internet",
+      "promoMonths": 6
+    },
+    {
+      "provider": "Dimensione",
+      "name": "Fibra 2.5 GIGA",
+      "price": 29.9,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FTTH 2.5 Gbit/s",
+      "modemIncluded": null,
+      "extraCosts": [],
+      "promo": "Prezzo dichiarato 'per sempre'; disponibile anche Ultra Fibra 10 GIGA da 49,90 €/mese con FRITZ!Box 4690 incluso (rete Open Fiber).",
+      "notes": "Attivazione e modem non esposti in pagina. Dimensione ha rilevato i clienti Virgin Fibra (giugno 2025). Verificato su dimensione.com.",
+      "url": "https://www.dimensione.com/portale/",
+      "category": "internet"
+    },
+    {
+      "provider": "Dimensione",
+      "name": "FWA Unlimited",
+      "price": 24.9,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FWA 100 Mbit/s (upload 20 Mbit/s)",
+      "modemIncluded": true,
+      "extraCosts": [],
+      "promo": "Router Wi-Fi 7 premium incluso; senza vincoli; disponibile anche Ultra FWA 300 Mega.",
+      "notes": "Attivazione non esposta. Verificato su dimensione.com.",
+      "url": "https://www.dimensione.com/portale/",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "ho. Mobile",
+      "name": "ho. Internet Casa 500 Giga in 5G",
+      "price": 14.95,
+      "promoPrice": 12.95,
+      "activationCost": 5.99,
+      "technology": "FWA — SIM solo dati 5G fino a 2 Gbit/s",
+      "modemIncluded": false,
+      "extraCosts": [
+        "Prima ricarica 15 € (13 € già clienti) — costo iniziale totale ~21 €",
+        "Router non incluso: codici sconto 10/20/50 € per router TP-Link",
+        "Chiamate 0,19 €/min fuori piano dati"
+      ],
+      "promo": "12,95 €/mese per già clienti ho. (convergenza), 14,95 € per nuovi; ricarica omaggio 5 € al primo rinnovo.",
+      "notes": "SIM dati 500 GB/mese, blocco navigazione a esaurimento giga; senza vincoli né costi di disattivazione. Verificato su ho-mobile.it.",
+      "url": "https://www.ho-mobile.it/offer-home",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "Sorgenia",
+      "name": "Sorgenia Ultra Fibra",
+      "price": 29.4,
+      "promoPrice": 26.07,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [],
+      "promo": "26,07 €/mese per i primi 12 mesi, poi 29,40 €; sconto 80 € attivando insieme luce e gas Next Energy Smart; bonus benvenuto 150 € (in 12 mesi) con fibra+luce+gas.",
+      "notes": "Venduta in bundle con luce e/o gas Sorgenia (non standalone). Rete Open Fiber; modem Wi-Fi in comodato gratuito.",
+      "url": "https://www.sorgenia.it/offerta-fibra",
+      "category": "internet",
+      "promoMonths": 12
+    },
+    {
+      "provider": "Optima Italia",
+      "name": "Super Casa Smart — Internet",
+      "price": 19.9,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s (upload 100 Mbit/s)",
+      "modemIncluded": false,
+      "extraCosts": [
+        "Modem Wi-Fi a noleggio (costo non pubblicato)"
+      ],
+      "promo": "19,90 €/mese il primo anno, poi 9,90 €/mese dal secondo (fonte SOStariffe); variante a 29,90 €/mese con SIM mobile inclusa (100 GB).",
+      "notes": "Solo come pacchetto multiutility Super Casa Smart (luce+gas+internet+mobile); prezzi via shop/call center, non esposti sul sito. Linea fissa inclusa.",
+      "url": "https://www.optimaitalia.com/",
+      "category": "internet"
+    },
+    {
+      "provider": "Linkem (Tessellis)",
+      "name": "Linkem Casa FWA 5G",
+      "price": 25.9,
+      "promoPrice": 19.9,
+      "activationCost": 120,
+      "technology": "FWA 4G/5G fino a 300 Mbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Installazione una tantum 29,90 €",
+        "Attivazione 120 € rateizzata in 24 rate da 5 €/mese inclusa nel canone"
+      ],
+      "promo": "19,90 €/mese per i primi 12 mesi, poi 25,90 €; traffico illimitato.",
+      "notes": "Brand FWA del gruppo Tessellis (ex Tiscali); le FTTH del gruppo sono a marchio Tiscali. Variante Home Safe con servizi assicurativi AXA.",
+      "url": "https://www.linkem.com/",
+      "category": "internet",
+      "promoMonths": 12
+    },
+    {
+      "provider": "Unidata",
+      "name": "Gigafiber 1000",
+      "price": 19.9,
+      "promoPrice": null,
+      "activationCost": 49.9,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Penale 80 € se il modem non torna entro 30 giorni dalla disdetta",
+        "Contributo allaccio 99 € in alcune aree bianche"
+      ],
+      "promo": "Chiamate nazionali illimitate incluse.",
+      "notes": "Operatore regionale: rete propria FTTH su Roma e Lazio. Nessun vincolo; modem Wi-Fi 7 in comodato. Variante Gamers con IP statico a 22,90 €.",
+      "url": "https://www.unidata.it/",
+      "category": "internet",
+      "coverage": "Lazio",
+      "commitment": 0
+    },
+    {
+      "provider": "Unidata",
+      "name": "Gigafiber 2500",
+      "price": 24.9,
+      "promoPrice": null,
+      "activationCost": 0,
+      "technology": "FTTH 2.5 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Penale 80 € se il modem non torna entro 30 giorni dalla disdetta"
+      ],
+      "promo": "Attivazione gratuita; chiamate nazionali illimitate incluse.",
+      "notes": "Solo zone limitate della copertura Unidata (Roma/Lazio). Modem FRITZ!Box 5530 Wi-Fi 6 in comodato; nessun vincolo.",
+      "url": "https://www.unidata.it/",
+      "category": "internet",
+      "coverage": "Lazio",
+      "commitment": 0
+    },
+    {
+      "provider": "Intred",
+      "name": "Fibra Rollercoaster H",
+      "price": 29.95,
+      "promoPrice": 19.95,
+      "activationCost": 0,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [],
+      "promo": "19,95 €/mese per i primi 6 mesi attivando entro il 31/08/2026, poi 29,95 €; attivazione e router gratuiti; su Facile.it esclusiva 19,95 € per 12 mesi.",
+      "notes": "Operatore regionale: rete proprietaria quasi solo in Lombardia. Prezzo bloccato dichiarato.",
+      "url": "https://www.intred.it/it/per-te/internet/fibra-rollercoaster-h/",
+      "category": "internet",
+      "promoExpiry": "2026-08-31",
+      "promoMonths": 6,
+      "coverage": "Lombardia"
+    },
+    {
+      "provider": "Intred",
+      "name": "Fibra FTTH Gaming",
+      "price": 38.95,
+      "promoPrice": 28.95,
+      "activationCost": 0,
+      "technology": "FTTH 1 Gbit/s (profilo bassa latenza)",
+      "modemIncluded": true,
+      "extraCosts": [],
+      "promo": "28,95 €/mese invece di 38,95 € per i primi 12 mesi (IVA inclusa).",
+      "notes": "Operatore regionale: copertura solo Lombardia su rete propria.",
+      "url": "https://www.intred.it/it/per-te/internet/fibra-rollercoaster-h-gaming/",
+      "category": "internet",
+      "promoMonths": 12,
+      "coverage": "Lombardia"
+    },
+    {
+      "provider": "Convergenze",
+      "name": "X-FIBRA",
+      "price": 21.0,
+      "promoPrice": null,
+      "activationCost": 96,
+      "technology": "FTTH XGS-PON 10 Gbit/s (upload 2 Gbit/s)",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Attivazione 96 € nuova linea, 48 € in migrazione da altro operatore"
+      ],
+      "promo": "Referral: fino a 72 € di sconto in 12 mesi presentando amici; 100 GB di cloud MyLife inclusi.",
+      "notes": "Prezzo 'a partire da'. Operatore regionale campano (Salerno/Cilento): il profilo 10 Gbit/s solo su rete propria con limiti geografici. Router FRITZ!Box 7690 Wi-Fi 7 incluso.",
+      "url": "https://www.convergenze.it/it/offerte-internet",
+      "category": "internet",
+      "coverage": "Campania"
+    },
+    {
+      "provider": "Connectivia",
+      "name": "Connectivia Casa",
+      "price": 22.9,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FTTH fino a 2.5 Gbit/s (o migliore tecnologia all'indirizzo)",
+      "modemIncluded": null,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Nato nel Sud Italia (rete propria in Campania/Basilicata), oggi vende in tutta Italia su reti wholesale. Attivazione e modem non pubblicati: verifica su fiberportal.connectivia.it.",
+      "url": "https://www.connectivia.it/",
+      "category": "internet"
+    },
+    {
+      "provider": "Fibra.City",
+      "name": "Pacchetto GIGA 1000 Mega",
+      "price": 23.99,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FTTH 1 Gbit/s (upload 300 Mbit/s)",
+      "modemIncluded": null,
+      "extraCosts": [
+        "Fatturazione bimestrale; in alternativa pagamento annuale 287,99 €"
+      ],
+      "promo": "Canone dichiarato bloccato per iscritto (nessun aumento nel tempo).",
+      "notes": "Semi-regionale su rete FTTH Open Fiber (alcune province del centro-nord). Prezzi da comparatori (sito non raggiungibile alla verifica). Variante 'Potenza' a 24 €/mese.",
+      "url": "https://fibra.city/pacchetto_one.php",
+      "category": "internet",
+      "coverage": "Centro-Nord"
+    },
+    {
+      "provider": "Planetel",
+      "name": "Planetel Lovers Fibra Simmetrica",
+      "price": 25.95,
+      "promoPrice": null,
+      "activationCost": null,
+      "technology": "FTTH simmetrica fino a 2.5 Gbit/s",
+      "modemIncluded": null,
+      "extraCosts": [],
+      "promo": "Offerta 'Planetel Green' con iPhone ricondizionato + fibra a costo bloccato.",
+      "notes": "Prezzo 'a partire da'. Operatore regionale con rete propria in Lombardia (Bergamo/Brescia) e Veneto. Dettagli su contatto o Planetel Point.",
+      "url": "https://fibra.planetel.it/offerte-casa/",
+      "category": "internet",
+      "coverage": "Lombardia/Veneto"
+    },
+    {
+      "provider": "Green Telecomunicazioni",
+      "name": "IPERFiber FTTH",
+      "price": 39.9,
+      "promoPrice": null,
+      "activationCost": 146.9,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": null,
+      "extraCosts": [
+        "Contributo di attivazione 146,90 € per profilo 1000 Mbps"
+      ],
+      "promo": null,
+      "notes": "Multiutility (luce, gas, mobile, fibra). Nessun vincolo né penali, banda minima garantita, IVA inclusa; assistente dedicato.",
+      "url": "https://www.tuogreen.it/offerte-consumer-fibra/",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "Green Telecomunicazioni",
+      "name": "ECOFiber FTTC",
+      "price": 34.9,
+      "promoPrice": null,
+      "activationCost": 84.9,
+      "technology": "FTTC 200 Mbit/s",
+      "modemIncluded": null,
+      "extraCosts": [
+        "Contributo di attivazione 84,90 €"
+      ],
+      "promo": "Esiste anche 'FTTC Fidelity' 30 Mbps a 9,99 €/mese (invece di 29,90 €) per chi attiva luce e/o gas Green, vincolo 24 mesi.",
+      "notes": "IP statico incluso, banda minima garantita, nessuna penale (tranne Fidelity vincolata 24 mesi). IVA inclusa.",
+      "url": "https://www.tuogreen.it/offerte-consumer-fibra/",
+      "category": "internet",
+      "commitment": 0
+    },
+    {
+      "provider": "Enel Energia",
+      "name": "Enel Fibra",
+      "price": 24.9,
+      "promoPrice": 17.9,
+      "activationCost": 0,
+      "technology": "FTTH 1 Gbit/s",
+      "modemIncluded": true,
+      "extraCosts": [
+        "Canone rimodulato a 21,90 €/mese in caso di recesso dalla fornitura luce o gas"
+      ],
+      "promo": "17,90 €/mese per 36 mesi (invece di 24,90 €) per clienti con luce e gas Enel; 22,90 €/mese con attivazione gratuita come offerta base.",
+      "notes": "Ex Melita Italia (incorporata in Enel Energia nel 2022; offerte Melita non più sottoscrivibili). Solo copertura FTTH Open Fiber; modem in comodato.",
+      "url": "https://www.enel.it/it/fibra",
+      "category": "internet",
+      "promoMonths": 36
+    },
+    {
+      "provider": "Poste Energia",
+      "name": "Poste Energia Offerta Luce",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.177,
+      "monthlyFee": 7.42,
+      "extraCosts": [
+        "Commercializzazione 89 €/anno (fatturata mensilmente)",
+        "Oneri di rete e di sistema ARERA esclusi"
+      ],
+      "promo": "Sconto 50 €/anno su fibra PosteCasa Ultraveloce (promo Energia Connessa, fino al 31/12/2026).",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 12 mesi, verificato sul sito ufficiale (validità fino al 15/09/2026). Energia 100% rinnovabile italiana GSE; nessun vincolo né penali.",
+      "url": "https://postepay.poste.it/poste-energia-luce-gas",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Poste Energia",
+      "name": "Poste Energia Offerta Gas",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.69,
+      "monthlyFee": 7.42,
+      "extraCosts": [
+        "Commercializzazione 89 €/anno (fatturata mensilmente)",
+        "Oneri di rete ARERA esclusi"
+      ],
+      "promo": "Sconto 50 €/anno su fibra PosteCasa Ultraveloce (promo Energia Connessa).",
+      "notes": "Prezzo bloccato 12 mesi, verificato sul sito ufficiale (validità fino al 15/09/2026). CO2 compensata con crediti di carbonio.",
+      "url": "https://postepay.poste.it/poste-energia-luce-gas",
+      "promoExpiry": "2026-09-15"
+    },
+    {
+      "provider": "Metamer",
+      "name": "Due Fisso Luce",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.1299,
+      "monthlyFee": 8,
+      "extraCosts": [
+        "Commercializzazione 96 €/anno, IVA e imposte escluse"
+      ],
+      "promo": "Sconto 20% sul listino (0,1299 invece di 0,161 €/kWh); contratti entro il 25/08/2026.",
+      "greenEnergy": true,
+      "notes": "Prezzo bloccato 2 anni, verificato sul sito ufficiale. Monoraria, energia 100% rinnovabile.",
+      "url": "https://www.metamer.it/offerte-energia-casa/due-fisso/",
+      "promoExpiry": "2026-08-25"
+    },
+    {
+      "provider": "Metamer",
+      "name": "Due Fisso Gas",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.445,
+      "monthlyFee": 8,
+      "extraCosts": [
+        "Commercializzazione 96 €/anno, IVA e imposte escluse"
+      ],
+      "promo": "Sconto 20% sul listino (0,445 invece di 0,556 €/Smc); contratti entro il 25/08/2026.",
+      "notes": "Prezzo bloccato 2 anni, verificato sul sito ufficiale.",
+      "url": "https://www.metamer.it/offerte-energia-casa/due-fisso/",
+      "promoExpiry": "2026-08-25"
+    },
+    {
+      "provider": "Metamer",
+      "name": "Easy Trend Luce",
+      "category": "luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,006 €/kWh",
+      "spreadValue": 0.006,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": "La variante fissa Easy Fix prevede 100 € di sconto il primo anno.",
+      "greenEnergy": true,
+      "notes": "Indicizzata PUN mensile (sito ufficiale); quota fissa non verificata.",
+      "url": "https://www.metamer.it/offerte-energia-casa/"
+    },
+    {
+      "provider": "Metamer",
+      "name": "Easy Trend Gas",
+      "category": "gas",
+      "priceType": "variabile",
+      "price": "PSV + 0,03 €/Smc",
+      "spreadValue": 0.03,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Indicizzata PSV (sito ufficiale); quota fissa non verificata.",
+      "url": "https://www.metamer.it/offerte-energia/casa/offerta-gas-casa-variabile/"
+    },
+    {
+      "provider": "Estra (AliaEstra)",
+      "name": "Estra Facile Fix Luce",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.139,
+      "monthlyFee": 4,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo confermato su aliaestra.it (agosto 2026); quota fissa da comparatore. Estra è ora brand AliaEstra.",
+      "url": "https://aliaestra.it/luce-e-gas/offerte-gas/Estra-Fissa-Gas"
+    },
+    {
+      "provider": "Estra (AliaEstra)",
+      "name": "Estra Facile Fix Gas",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.58,
+      "monthlyFee": 4,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo da comparatore agosto 2026, non verificato sul sito ufficiale.",
+      "url": "https://aliaestra.it/luce-e-gas/offerte-gas/Estra-Fissa-Gas"
+    },
+    {
+      "provider": "Bluenergy Group",
+      "name": "Special Web Luce",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.145,
+      "monthlyFee": 9,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo da comparatore (agosto 2026), sito ufficiale non verificabile. Esiste anche Relax Smart Luce con prezzo bloccato fino al 31/12/2026.",
+      "url": "https://www.bluenergygroup.it/offerta/special-web-luce-gas-casa/"
+    },
+    {
+      "provider": "Bluenergy Group",
+      "name": "Special Web Gas",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.63,
+      "monthlyFee": 9,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Prezzo da comparatore (agosto 2026). Alternativa: Relax Smart Casa Gas a 0,566 €/Smc con quota 13 €/mese.",
+      "url": "https://www.bluenergygroup.it/offerta/special-web-luce-gas-casa/"
+    },
+    {
+      "provider": "Duferco Energia",
+      "name": "Pianeta Blu Luce",
+      "category": "luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,008 €/kWh",
+      "spreadValue": 0.008,
+      "monthlyFee": 8,
+      "extraCosts": [
+        "0,50 €/mese al progetto Ogyre (recupero plastica dal mare)",
+        "Compensazione CO2 36 €/anno"
+      ],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Indicizzata PUN mensile; nessun vincolo. Dati da comparatori agosto 2026.",
+      "url": "https://dufercoenergia.com/luce-gas/casa/"
+    },
+    {
+      "provider": "Duferco Energia",
+      "name": "Pianeta Blu Gas",
+      "category": "gas",
+      "priceType": "variabile",
+      "price": "PSV + 0,07 €/Smc",
+      "spreadValue": 0.07,
+      "monthlyFee": 8,
+      "extraCosts": [
+        "0,50 €/mese al progetto Ogyre"
+      ],
+      "promo": null,
+      "notes": "Indicizzata PSV mensile. Dati da comparatori agosto 2026.",
+      "url": "https://dufercoenergia.com/luce-gas/casa/"
+    },
+    {
+      "provider": "VIVI energia",
+      "name": "VIVIweb Allday Flex Luce",
+      "category": "luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,014 €/kWh",
+      "spreadValue": 0.014,
+      "monthlyFee": 10,
+      "extraCosts": [],
+      "promo": "Sconto 40 €/anno.",
+      "notes": "Indicizzata PUN mensile. Dati da comparatore agosto 2026. Gruppo Vivigas.",
+      "url": "https://www.vivienergia.it/prodotti"
+    },
+    {
+      "provider": "VIVI energia",
+      "name": "VIVIweb Allday Flex Gas",
+      "category": "gas",
+      "priceType": "variabile",
+      "price": "PSV + 0,059 €/Smc",
+      "spreadValue": 0.059,
+      "monthlyFee": 9.5,
+      "extraCosts": [],
+      "promo": "Sconto 35 €/anno.",
+      "notes": "Indicizzata PSV mensile. Dati da comparatore agosto 2026.",
+      "url": "https://www.vivienergia.it/prodotti"
+    },
+    {
+      "provider": "AGSM AIM Energia",
+      "name": "Pura Luce",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.121,
+      "monthlyFee": 12,
+      "extraCosts": [
+        "Quota fissa 12 €/mese il primo anno"
+      ],
+      "promo": null,
+      "greenEnergy": true,
+      "notes": "Energia 100% green, fisso 12 mesi. Dato da comparatore (rilevazione febbraio 2026), potenzialmente non aggiornato: verificare sul sito.",
+      "url": "https://www.agsmaim.it"
+    },
+    {
+      "provider": "Argos Energia",
+      "name": "Luce Flex Web",
+      "category": "luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,033 €/kWh",
+      "spreadValue": 0.033,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Sconto 20 €/anno; Bonus Flex 35: 35 € + IVA in bolletta dopo 12 mesi con SEPA (65 € + IVA con anche gas).",
+      "notes": "Solo online. Dati da comparatore agosto 2026.",
+      "url": "https://www.argosenergia.com"
+    },
+    {
+      "provider": "Argos Energia",
+      "name": "Gas Fissa Web",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.68,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Sconto 10% sul gas + bonus 20 € dopo 12 mesi.",
+      "notes": "Prezzo bloccato 12 mesi, solo online. Variante Flex: PSV + 0,12 €/Smc. Dati da comparatore agosto 2026.",
+      "url": "https://www.argosenergia.com"
+    },
+    {
+      "provider": "Ajò Energia",
+      "name": "Fisso 12M",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.153,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Ajò Tribe: 5 €/mese di sconto per 24 mesi per ogni amico presentato (fino a 120 €).",
+      "notes": "Prezzo bloccato 12 mesi, valida fino al 06/09/2026. Fornitore sardo operativo su tutta Italia. Dati da comparatore.",
+      "url": "https://www.ajoenergia.it",
+      "promoExpiry": "2026-09-06"
+    },
+    {
+      "provider": "Ajò Energia",
+      "name": "Freedom",
+      "category": "luce",
+      "priceType": "variabile",
+      "price": "PUN + 0,024 €/kWh",
+      "spreadValue": 0.024,
+      "monthlyFee": 12,
+      "extraCosts": [],
+      "promo": "Ajò Tribe: 5 €/mese di sconto per amico presentato.",
+      "notes": "Indicizzata PUN, validità rilevata fino al 23/08/2026. Dati da comparatore.",
+      "url": "https://www.ajoenergia.it",
+      "promoExpiry": "2026-08-23"
+    },
+    {
+      "provider": "Magis Energia",
+      "name": "Mia Luce e Gas Fix (luce)",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": 0.116,
+      "monthlyFee": 8,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Dati da comparatore agosto 2026. Variante indicizzata: PUN + 0 €/kWh con quota 10 €/mese.",
+      "url": "https://www.magisenergia.it"
+    },
+    {
+      "provider": "Magis Energia",
+      "name": "Mia Luce e Gas Fix (gas)",
+      "category": "gas",
+      "priceType": "fisso",
+      "price": 0.56,
+      "monthlyFee": 8,
+      "extraCosts": [],
+      "promo": null,
+      "notes": "Dati da comparatore agosto 2026. Variante indicizzata: PSV + 0,055 €/Smc con quota 10 €/mese.",
+      "url": "https://www.magisenergia.it"
+    },
+    {
+      "provider": "Egea Energie",
+      "name": "Light Gas Variabile",
+      "category": "gas",
+      "priceType": "variabile",
+      "price": "PSV + 0,13 €/Smc",
+      "spreadValue": 0.13,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": "10x3: bonus 30 € in tre bollette sulla variante 10x3; Casa Virtuosa 24: sconto 100% componente luce primi 2 mesi.",
+      "notes": "Dati da comparatore agosto 2026; quota fissa non nota. Egea operativa (gruppo Iren).",
+      "url": "https://www.egea.it/egea-energie/offerte-luce-e-gas"
+    },
+    {
+      "provider": "Audax Renewables",
+      "name": "Smart L Fix",
+      "category": "luce",
+      "priceType": "fisso",
+      "price": null,
+      "monthlyFee": null,
+      "extraCosts": [],
+      "promo": "Sconti fino a 52 € su dual fuel (agosto 2026); opzione Ecox per energia 100% green.",
+      "greenEnergy": false,
+      "notes": "Operativo (~55.000 clienti in Italia). Varianti Fix 12 mesi e Index PUN/PSV; prezzi puntuali non pubblicati: richiedere preventivo.",
+      "url": "https://audaxrenewables.it/it/offerte/"
+    }
+  ]
+}

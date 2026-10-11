@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>TariffeOggi · Luce, Gas e Internet</title>
+  <meta name="description" content="Tutte le offerte di oggi per luce, gas e internet casa in Italia: prezzo fisso, variabile, promozioni e costi, aggiornate ogni giorno.">
+  <meta name="theme-color" content="#0e1116">
+  <meta property="og:title" content="TariffeOggi · Luce, Gas e Internet">
+  <meta property="og:description" content="Le offerte del giorno di luce, gas e internet casa: prezzi, promo e costi a confronto.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="TariffeOggi">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-top">
+        <h1 class="brand"><span class="brand-icon">⚡</span>Tariffe<span class="brand-accent">Oggi</span></h1>
+        <div class="header-right">
+          <span id="updated" class="updated"></span>
+          <button id="themeBtn" class="iconbtn" aria-label="Cambia tema">
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <nav id="tabs" class="tabs" aria-label="Categorie">
+        <button class="tab is-active" data-cat="all">Tutte</button>
+        <button class="tab" data-cat="luce"><span class="tab-emoji">⚡</span>Luce</button>
+        <button class="tab" data-cat="gas"><span class="tab-emoji">🔥</span>Gas</button>
+        <button class="tab" data-cat="internet"><span class="tab-emoji">🌐</span>Internet</button>
+        <button class="tab" data-cat="bolletta"><span class="tab-emoji">📄</span>Bolletta</button>
+      </nav>
+
+      <div class="toolbar">
+        <div class="searchwrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="search" type="search" placeholder="Cerca fornitore o offerta…" autocomplete="off">
+          <button id="searchClear" class="clearbtn" hidden aria-label="Cancella ricerca">✕</button>
+        </div>
+        <select id="sort" class="sortsel" aria-label="Ordinamento">
+          <option value="est-asc">Stima annua ↑</option>
+          <option value="price-asc">Prezzo ↑</option>
+          <option value="price-desc">Prezzo ↓</option>
+          <option value="provider">Fornitore A–Z</option>
+        </select>
+      </div>
+
+      <div id="chips" class="chips" aria-label="Filtri"></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div id="counter" class="counter" hidden></div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>Nessuna offerta trovata 🤷</div>
+    <div id="loading" class="empty">Caricamento offerte…</div>
+
+    <section id="billPanel" class="bill" hidden>
+      <div class="bill-intro">
+        <h2>📄 Confronta la tua bolletta</h2>
+        <p>Trascina qui la tua bolletta <strong>luce o gas</strong> in PDF: estraggo POD/PDR, prezzo e consumi, e ti dico se le offerte di oggi ti fanno risparmiare. Per <strong>internet</strong> niente PDF: scegli il tipo nel form e inserisci il canone attuale.</p>
+        <p class="bill-privacy">🔒 Tutto avviene nel tuo browser: la bolletta <strong>non viene caricata su nessun server</strong> e i dati restano salvati solo su questo dispositivo.</p>
+      </div>
+
+      <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="Carica bolletta PDF">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg>
+        <p><strong>Trascina qui il PDF</strong> oppure tocca per sceglierlo</p>
+        <input id="billFile" type="file" accept="application/pdf,.pdf" hidden>
+      </div>
+      <div id="billStatus" class="bill-status" hidden></div>
+
+      <form id="billForm" class="bill-form" hidden>
+        <h3>Controlla i dati estratti</h3>
+        <div class="bill-grid">
+          <label>Tipo
+            <select id="bfType">
+              <option value="luce">⚡ Luce</option>
+              <option value="gas">🔥 Gas</option>
+              <option value="internet">🌐 Internet</option>
+            </select>
+          </label>
+          <label>Fornitore attuale
+            <input id="bfProvider" type="text" placeholder="es. Enel Energia">
+          </label>
+          <label id="bfCodeLabel">POD / PDR
+            <input id="bfCode" type="text" placeholder="IT001E… / 14 cifre">
+          </label>
+          <label>Prezzo materia <span id="bfPriceUnit">€/kWh</span>
+            <input id="bfPrice" type="number" step="0.0001" min="0" placeholder="0,15">
+          </label>
+          <label id="bfFeeLabel">Quota fissa €/mese
+            <input id="bfFee" type="number" step="0.01" min="0" placeholder="10">
+          </label>
+          <label id="bfConsLabel">Consumo annuo <span id="bfConsUnit">kWh</span>
+            <input id="bfCons" type="number" step="1" min="0" placeholder="2700">
+          </label>
+        </div>
+        <button type="submit" class="card-cta bill-save">Salva e confronta</button>
+      </form>
+
+      <div id="billSaved" class="bill-saved"></div>
+      <div id="billCompare" class="bill-compare"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Prezzi e promozioni raccolti da siti ufficiali e comparatori pubblici · verifica sempre le condizioni sul sito del fornitore prima di aderire.</p>
+    <p>Non affiliato ad alcun fornitore · le componenti regolate (oneri di rete, imposte) non sono incluse nei prezzi mostrati.</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="extract.js"></script>
+  <script src="bolletta.js"></script>
+</body>
+</html>
